@@ -23,9 +23,8 @@ sources:
     sections: "«Bon ton» (p. 1–7)"
 review_notes:
   - "it-006 (avoid adverbs ending in -mente) exists only in Italian. DE, EN and FR have different content under 'credible'."
-  - "Not in the source, added to prevent false reports and content changes: the exceptions for greetings and closings (001, 009), for the name Helsana (008), for -mente adverbs without a simple alternative (006) and for real uncertainty (010), and the instruction for input without concrete information (001)."
+  - "Not in the source, added to prevent false reports and content changes: the exceptions for greetings and closings (001, 009), for the name Helsana (008), for -mente adverbs without a simple alternative (006) and for real uncertainty (010), the instruction for input without concrete information (001), the fallback for vague time words (003) and the restriction on writing definitions (007)."
   - "it-012: the source says 'diamo del voi (o del lei)', and its examples mix 'voi' and 'Lei'. For a portal message to one customer, 'Lei' is assumed; confirm, together with section 10 Form of address. Severity set to mandatory, because 'tu' towards a customer is an error, not a matter of style."
-  - "013: the source only says to write abbreviations out the first time. The bracket format, the exception for everyday abbreviations and the instruction not to guess unknown expansions are added; confirm."
 ---
 ## Rilevanza: forniamo risposte
 
@@ -50,6 +49,7 @@ review_notes:
 - **Source:** Corporate language IT, "Prospettiva del cliente", p. 2–3
 - **Instruction:** Avoid the internal view and marketing or business jargon. Drop qualifiers the reader does not need.
 - **Avoid:** `valore aggiunto`, `finestra temporale`, `in modo proattivo`, `in modo mirato`, `in modo tempestivo`
+- **Vague time words** such as `in modo tempestivo`: replace only with a concrete time from the input; otherwise leave them unchanged and report them.
 - **Replace:** `consulenza assicurativa` → `consulenza`, `copertura assicurativa` → `copertura`, `prestazione assicurativa` → `prestazione`, `team di assistenza alla clientela` → `team di assistenza`
 
 ## Comprensibilità: andiamo al punto
@@ -71,13 +71,13 @@ review_notes:
 - **Severity:** guideline
 - **Source:** Corporate language IT, "Credibilità", p. 4
 - **Instruction:** Avoid adverbs ending in `-mente` as far as possible, because they make the text heavy and complicated. Do not report a `-mente` adverb that has no simple alternative.
-- **Replace:** `inviare semplicemente le fatture` → `Le basta inviarci le fatture`, `finanziariamente in difficoltà` → `difficoltà finanziarie`
+- **Replace:** `Ci può inviare semplicemente le fatture.` → `Le basta inviarci le fatture.`, `È finanziariamente in difficoltà?` → `Ha difficoltà finanziarie?`
 
 ### Explain foreign words and technical terms (`cpm-kbs-tone-it-007`)
 
 - **Severity:** guideline
 - **Source:** Corporate language IT, "Spiegazioni quando necessario", p. 4; "Rilevanza", p. 2
-- **Instruction:** Use foreign words, especially anglicisms, sparingly. A foreign word is fine when the Italian alternative is outdated or unusual (`e-mail`, not `posta elettronica`). Explain technical terms of foreign or classical origin if their meaning is not obvious.
+- **Instruction:** Use foreign words, especially anglicisms, sparingly. A foreign word is fine when the Italian alternative is outdated or unusual (`e-mail`, not `posta elettronica`). Explain technical terms of foreign or classical origin if their meaning is not obvious. Use only an explanation from the input or an approved glossary; when reviewing, report an unexplained term instead of writing a definition. For abbreviations, see section 03, Abbreviations.
 - **Terms that need an explanation, for example:** `medicamento fuori lista`, `oftalmologa`
 
 ### Address the reader directly (`cpm-kbs-tone-it-008`)
@@ -117,9 +117,3 @@ review_notes:
 - **Source:** Corporate language IT, "Rilevanza", p. 2
 - **Instruction:** Use the formal address. In a message to one customer, use `Lei`. The detailed rules are in section 10, Form of address.
 
-### Write out abbreviations (`cpm-kbs-tone-it-013`)
-
-- **Severity:** guideline
-- **Source:** Corporate language IT, "Rilevanza", p. 2
-- **Instruction:** Write out an abbreviation in full the first time it appears, followed by the abbreviation in brackets, for example `legge federale sull’assicurazione malattie (LAMal)`. After that, the abbreviation alone is fine. Write out an abbreviation only if its meaning is certain; otherwise report it and leave it unchanged.
-- **Not affected:** abbreviations that are common in everyday language, for example `CHF`, `p. es.`, `ecc.`

@@ -24,9 +24,8 @@ sources:
 review_notes:
   - "There is no fr-006: the French 'Être crédible' only says 'Se relire permet d'éviter les lourdeurs stylistiques'. Merged into fr-002, together with its example."
   - "fr-010: the source also lists the subjunctive as relativising. Left out, because French grammar often requires it; confirm."
-  - "Not in the source, added to prevent false reports and content changes: the exceptions for greetings and closings (001, 009), for the name Helsana (008) and for real uncertainty (010), and the instruction for input without concrete information (001)."
+  - "Not in the source, added to prevent false reports and content changes: the exceptions for greetings and closings (001, 009), for the name Helsana (008) and for real uncertainty (010), the instruction for input without concrete information (001), the fallback for vague time words (003) and the restriction on writing definitions (007)."
   - "fr-012 (vous) comes from one sentence in the source; the full rules are in section 10 Form of address. Severity set to mandatory, because 'tu' towards a customer is an error, not a matter of style."
-  - "013: the source only says to write abbreviations out the first time. The bracket format, the exception for everyday abbreviations and the instruction not to guess unknown expansions are added; confirm."
 ---
 ## Pertinence : nous donnons des réponses
 
@@ -51,6 +50,7 @@ review_notes:
 - **Source:** Corporate language FR, "Adopter le point de vue du client", p. 3
 - **Instruction:** Avoid company-centred wording and marketing or business jargon. Drop qualifiers the reader does not need.
 - **Avoid:** `valeur ajoutée`, `plage horaire`, `proactif`, `ciblé`, `asap`
+- **Vague time words** such as `asap`: replace only with a concrete time from the input; otherwise leave them unchanged and report them.
 - **Replace:** `conseil en assurance` → `conseil`, `couverture d’assurance` → `couverture`, `prestation d’assurance` → `prestation`, `vendre` → `proposer`, `offrir`
 
 ## Intelligibilité : formuler de manière claire
@@ -71,7 +71,7 @@ review_notes:
 
 - **Severity:** guideline
 - **Source:** Corporate language FR, "Si nécessaire, clarifier", p. 5; "Pertinence", p. 2
-- **Instruction:** Use foreign words, especially anglicisms, sparingly. A foreign word is fine when it has entered everyday language (`e-mail`, not `courrier électronique`). Use foreign or classical technical terms only when there is no French alternative, and explain them if their meaning is not obvious.
+- **Instruction:** Use foreign words, especially anglicisms, sparingly. A foreign word is fine when it has entered everyday language (`e-mail`, not `courrier électronique`). Use foreign or classical technical terms only when there is no French alternative, and explain them if their meaning is not obvious. Use only an explanation from the input or an approved glossary; when reviewing, report an unexplained term instead of writing a definition. For abbreviations, see section 03, Abbreviations.
 - **Replace:** `underwriting` → `examen du risque`, `meeting` → `réunion`, `médicaments OTC` → `médicaments en vente libre, sans ordonnance`, `deadline` → `délai`
 
 ### Address the reader directly (`cpm-kbs-tone-fr-008`)
@@ -111,9 +111,3 @@ review_notes:
 - **Source:** Corporate language FR, "Pertinence", p. 2
 - **Instruction:** Address the reader as `vous`. The detailed rules are in section 10, Form of address.
 
-### Write out abbreviations (`cpm-kbs-tone-fr-013`)
-
-- **Severity:** guideline
-- **Source:** Corporate language FR, "Pertinence", p. 2
-- **Instruction:** Write out an abbreviation in full the first time it appears, followed by the abbreviation in brackets, for example `loi fédérale sur l’assurance-maladie (LAMal)`. After that, the abbreviation alone is fine. Write out an abbreviation only if its meaning is certain; otherwise report it and leave it unchanged.
-- **Not affected:** abbreviations that are common in everyday language, for example `CHF`, `p. ex.`, `etc.`

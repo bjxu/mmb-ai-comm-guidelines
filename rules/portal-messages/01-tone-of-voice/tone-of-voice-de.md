@@ -25,9 +25,8 @@ review_notes:
   - "The German heading says 'relevant, einfach und authentisch'; the other languages say 'transparent'. The content is the same."
   - "de-006 (no word creations ending in -ig, -mässig, -weise) exists only in German. EN, FR and IT have different content under 'credible'. The rule is narrowed to ad-hoc word creations, so that established words such as 'wichtig' or 'beispielsweise' are not reported."
   - "The Avoid list keeps the source's generic masculine ('kompetente Berater'); linguistic equality takes precedence."
-  - "Not in the source, added to prevent false reports and content changes: the exceptions for greetings and closings (001, 009), for the name Helsana (008) and for real uncertainty (010), and the instruction for input without concrete information (001)."
+  - "Not in the source, added to prevent false reports and content changes: the exceptions for greetings and closings (001, 009), for the name Helsana (008) and for real uncertainty (010), the instruction for input without concrete information (001), the fallback for vague time words (003) and the restriction on writing definitions (007)."
   - "de-012 (Sie) comes from one sentence in the source; the full rules are in section 10 Form of address. Severity set to mandatory, because 'du' towards a customer is an error, not a matter of style."
-  - "013: the source only says to write abbreviations out the first time. The bracket format, the exception for everyday abbreviations and the instruction not to guess unknown expansions are added; confirm."
 ---
 ## Relevant: wir geben Antworten
 
@@ -52,6 +51,7 @@ review_notes:
 - **Source:** Corporate language DE, "Perspektive des Kunden einnehmen", p. 3
 - **Instruction:** Avoid the internal view and marketing or business jargon. Drop qualifiers the reader does not need.
 - **Avoid:** `Mehrwert`, `Zeitfenster`, `proaktiv`, `zielführend`, `zeitnah`
+- **Vague time words** such as `zeitnah`: replace only with a concrete time from the input; otherwise leave them unchanged and report them.
 - **Replace:** `Versicherungsberatung` → `Beratung`, `Versicherungsdeckung` → `Deckung`, `Versicherungsleistung` → `Leistung`, `Kundenbetreuungsteam` → `Betreuungsteam`
 
 ## Verständlich: wir kommen auf den Punkt
@@ -79,7 +79,7 @@ review_notes:
 
 - **Severity:** guideline
 - **Source:** Corporate language DE, "Wenn nötig aufklären", p. 5; "Relevant", p. 2
-- **Instruction:** Use foreign words, especially anglicisms, sparingly. A foreign word is fine when the German alternative is outdated or unusual (`E-Mail`, not `elektronische Post`). Explain technical terms the reader may not know, in the text itself.
+- **Instruction:** Use foreign words, especially anglicisms, sparingly. A foreign word is fine when the German alternative is outdated or unusual (`E-Mail`, not `elektronische Post`). Explain technical terms the reader may not know, in the text itself. Use only an explanation from the input or an approved glossary; when reviewing, report an unexplained term instead of writing a definition. For abbreviations, see section 03, Abbreviations.
 - **Terms that need an explanation, for example:** `ambulante Behandlung`, `stationäre Behandlung`, `Leistungserbringer`, `Dermatologin`, `Unfalldeckung`, `Tarifvertrag`
 
 ### Address the reader directly (`cpm-kbs-tone-de-008`)
@@ -119,9 +119,3 @@ review_notes:
 - **Source:** Corporate language DE, "Relevant", p. 2
 - **Instruction:** Address the reader as `Sie`. The detailed rules are in section 10, Form of address.
 
-### Write out abbreviations (`cpm-kbs-tone-de-013`)
-
-- **Severity:** guideline
-- **Source:** Corporate language DE, "Relevant", p. 2
-- **Instruction:** Write out an abbreviation in full the first time it appears, followed by the abbreviation in brackets, for example `Krankenversicherungsgesetz (KVG)`. After that, the abbreviation alone is fine. Write out an abbreviation only if its meaning is certain; otherwise report it and leave it unchanged.
-- **Not affected:** abbreviations that are common in everyday language, for example `CHF`, `z. B.`, `usw.`
