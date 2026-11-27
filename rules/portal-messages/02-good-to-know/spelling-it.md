@@ -22,9 +22,10 @@ sources:
     title: "Corporate language - Italian.pdf"
     sections: "Buono a sapersi (p. 7)"
 review_notes:
-  - "Rule numbers match across languages: 001 spelling reference, 002 choice between variants, 003 language-specific rule, 004 Helsana rules first. Italian has no 002 or 003, because the source gives no variant rule."
+  - "Rule numbers match across languages: 001 spelling reference, 002 choice between variants, 003 language-specific rule, 004 Helsana rules first, 005 Swiss usage. Italian has no 002 or 003, because the source gives no variant rule."
   - "The Italian source only says the Treccani dictionary can be consulted ('puoi consultare'). Unlike DE, EN and FR, it does not say how to choose between variants. it-001 treats Treccani as the reference; confirm."
   - "The review instruction in it-001 (report only clear errors) is not in the source."
+  - "Added, not in the source: it-005 (Swiss usage is correct) and the exemption of proper names and quoted text (001). Confirm."
 ---
 ## Follow Treccani spelling (`cpm-kbs-spelling-it-001`)
 
@@ -32,6 +33,7 @@ review_notes:
 - **Severity:** mandatory
 - **Source:** Corporate language IT, "Buono a sapersi", p. 7
 - **Instruction:** Use standard Italian spelling as recorded in the Treccani dictionary. When reviewing, report only clear spelling errors. Do not report a spelling that Treccani also accepts.
+- **Not affected:** proper names of people, companies and places, official names and titles, and text quoted from the customer's message. Never change their spelling.
 
 ## Helsana rules come first (`cpm-kbs-spelling-it-004`)
 
@@ -39,3 +41,11 @@ review_notes:
 - **Severity:** mandatory
 - **Source:** Corporate language IT, "Buono a sapersi", p. 7
 - **Instruction:** Helsana sets its own rules in some areas, for example product names and document layout. Where a Helsana rule file covers a case, follow it, even if the dictionary says otherwise.
+
+## Swiss usage is correct (`cpm-kbs-spelling-it-005`)
+
+- **Applies to:** every text
+- **Severity:** mandatory
+- **Source:** none (Swiss Italian; see review_notes)
+- **Instruction:** Words and expressions used in Swiss Italian, including Swiss official terms, are correct. Do not replace them with the form used in Italy, and do not report them.
+- **Examples:** `medicamento`, not `farmaco`; `cassa malati`; `AVS`
