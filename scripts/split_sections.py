@@ -10,7 +10,7 @@ Section titles are read from the heading with Tesseract OCR. Sections are matche
 across languages by order, so all four PDFs must yield the same number.
 
 Requirements: tesseract-ocr (+ deu/fra/ita data), pip install pymupdf pillow pytesseract numpy
-Usage: python scripts/split_sections.py [output_dir]
+Usage: python scripts/split_sections.py [output_dir]   (default: rules/)
 """
 import io
 import json
@@ -32,6 +32,16 @@ LANGS = {
     "fr": ("Corporate language - French.pdf", "fra"),
     "it": ("Corporate language - Italian.pdf", "ita"),
 }
+# Section number -> category folder under rules/.
+CATEGORIES = {
+    "portal-messages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+                        20, 21, 22, 23, 24, 26, 27, 28, 29, 35, 40, 44, 46],
+    "letters-and-documents": [19, 25, 38, 39],
+    "marketing-and-publishing": [30, 31, 32, 33, 34],
+    "internal-and-organisational": [36, 37, 41, 42, 43, 45],
+}
+CATEGORY_OF = {n: cat for cat, nums in CATEGORIES.items() for n in nums}
+
 OCR_DPI = 100
 OUT_DPI = 150
 PX = 72 / OCR_DPI  # OCR pixels -> PDF points
@@ -188,7 +198,7 @@ def slug(text):
 
 
 def main():
-    out = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "sections"
+    out = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "rules"
     docs, found = {}, {}
     for code, (fname, tess) in LANGS.items():
         docs[code] = pymupdf.open(SRC / fname)
@@ -203,16 +213,18 @@ def main():
 
     index = []
     for k, en in enumerate(found["en"]):
-        folder = out / f"{k + 1:02d}-{slug(en['title'])}"
+        category = CATEGORY_OF.get(k + 1, "uncategorised")
+        folder = out / category / f"{k + 1:02d}-{slug(en['title'])}"
         folder.mkdir(parents=True, exist_ok=True)
-        entry = {"folder": folder.name, "titles": {}, "pages": {}}
+        entry = {"folder": f"{category}/{folder.name}", "category": category,
+                 "titles": {}, "pages": {}}
         for code, doc in docs.items():
             segs = segments(doc, found[code], k)
             export(doc, segs, folder / f"{code}.png", folder / f"{code}.pdf")
             entry["titles"][code] = found[code][k]["title"]
             entry["pages"][code] = [segs[0][0] + 1, segs[-1][0] + 1]
         index.append(entry)
-        print(folder.name, entry["titles"])
+        print(entry["folder"], entry["titles"])
     (out / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=2))
 
 

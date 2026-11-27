@@ -1,6 +1,7 @@
 [
   {
-    "folder": "01-tone-of-voice",
+    "folder": "portal-messages/01-tone-of-voice",
+    "category": "portal-messages",
     "titles": {
       "en": "Tone of voice",
       "de": "Zum guten Ton",
@@ -27,7 +28,8 @@
     }
   },
   {
-    "folder": "02-good-to-know",
+    "folder": "portal-messages/02-good-to-know",
+    "category": "portal-messages",
     "titles": {
       "en": "Good to know",
       "de": "Gut zu wissen",
@@ -54,7 +56,8 @@
     }
   },
   {
-    "folder": "03-abbreviations",
+    "folder": "portal-messages/03-abbreviations",
+    "category": "portal-messages",
     "titles": {
       "en": "Abbreviations",
       "de": "Abkürzungen",
@@ -81,7 +84,8 @@
     }
   },
   {
-    "folder": "04-quotation-marks",
+    "folder": "portal-messages/04-quotation-marks",
+    "category": "portal-messages",
     "titles": {
       "en": "Quotation marks",
       "de": "Anführungszeichen",
@@ -108,7 +112,8 @@
     }
   },
   {
-    "folder": "05-date-and-times",
+    "folder": "portal-messages/05-date-and-times",
+    "category": "portal-messages",
     "titles": {
       "en": "Date and times",
       "de": "Datum und Zeit",
@@ -135,7 +140,8 @@
     }
   },
   {
-    "folder": "06-capital-letters",
+    "folder": "portal-messages/06-capital-letters",
+    "category": "portal-messages",
     "titles": {
       "en": "Capital letters",
       "de": "Gross-/Kleinschreibung",
@@ -162,7 +168,8 @@
     }
   },
   {
-    "folder": "07-website-addresses-url",
+    "folder": "portal-messages/07-website-addresses-url",
+    "category": "portal-messages",
     "titles": {
       "en": "Website addresses (URL)",
       "de": "Internetadressen (URL)",
@@ -189,7 +196,8 @@
     }
   },
   {
-    "folder": "08-numbers",
+    "folder": "portal-messages/08-numbers",
+    "category": "portal-messages",
     "titles": {
       "en": "Numbers",
       "de": "Zahlen: In Ziffern oder Worten?",
@@ -216,7 +224,8 @@
     }
   },
   {
-    "folder": "09-thousands-and-years",
+    "folder": "portal-messages/09-thousands-and-years",
+    "category": "portal-messages",
     "titles": {
       "en": "Thousands and years",
       "de": "Zahlen lesbar schreiben",
@@ -243,7 +252,8 @@
     }
   },
   {
-    "folder": "10-form-of-address",
+    "folder": "portal-messages/10-form-of-address",
+    "category": "portal-messages",
     "titles": {
       "en": "Form of address",
       "de": "Anrede",
@@ -270,7 +280,8 @@
     }
   },
   {
-    "folder": "11-referring-to-legal-texts",
+    "folder": "portal-messages/11-referring-to-legal-texts",
+    "category": "portal-messages",
     "titles": {
       "en": "Referring to legal texts",
       "de": "Gesetzesartikel ja oder nein?",
@@ -297,7 +308,8 @@
     }
   },
   {
-    "folder": "12-helsana-the-brand",
+    "folder": "portal-messages/12-helsana-the-brand",
+    "category": "portal-messages",
     "titles": {
       "en": "Helsana the brand",
       "de": "Helsana als Marke",
@@ -324,7 +336,8 @@
     }
   },
   {
-    "folder": "13-product-names",
+    "folder": "portal-messages/13-product-names",
+    "category": "portal-messages",
     "titles": {
       "en": "Product names",
       "de": "Produktnamen",
@@ -351,7 +364,8 @@
     }
   },
   {
-    "folder": "14-telephone",
+    "folder": "portal-messages/14-telephone",
+    "category": "portal-messages",
     "titles": {
       "en": "Telephone",
       "de": "Telefon",
@@ -378,7 +392,8 @@
     }
   },
   {
-    "folder": "15-percent-or",
+    "folder": "portal-messages/15-percent-or",
+    "category": "portal-messages",
     "titles": {
       "en": "Percent or %?",
       "de": "Prozent oder %",
@@ -405,7 +420,8 @@
     }
   },
   {
-    "folder": "16-linguistic-equality",
+    "folder": "portal-messages/16-linguistic-equality",
+    "category": "portal-messages",
     "titles": {
       "en": "Linguistic equality",
       "de": "Sprachliche Gleichstellung",
@@ -432,7 +448,8 @@
     }
   },
   {
-    "folder": "17-subject-line",
+    "folder": "portal-messages/17-subject-line",
+    "category": "portal-messages",
     "titles": {
       "en": "Subject line",
       "de": "Betreffzeilen",
@@ -459,7 +476,8 @@
     }
   },
   {
-    "folder": "18-decimal-point",
+    "folder": "portal-messages/18-decimal-point",
+    "category": "portal-messages",
     "titles": {
       "en": "Decimal point",
       "de": "Dezimalzeichen",
@@ -486,7 +504,8 @@
     }
   },
   {
-    "folder": "19-postscript-ps",
+    "folder": "letters-and-documents/19-postscript-ps",
+    "category": "letters-and-documents",
     "titles": {
       "en": "Postscript (PS)",
       "de": "PS-Sätze",
@@ -513,7 +532,8 @@
     }
   },
   {
-    "folder": "20-slash-without-spaces",
+    "folder": "portal-messages/20-slash-without-spaces",
+    "category": "portal-messages",
     "titles": {
       "en": "Slash “/” without spaces",
       "de": "Schrägstrich/ohne Abstand",
@@ -540,7 +560,8 @@
     }
   },
   {
-    "folder": "21-division-of-words-at-the-end-of-a-line",
+    "folder": "portal-messages/21-division-of-words-at-the-end-of-a-line",
+    "category": "portal-messages",
     "titles": {
       "en": "Division of words at the end of a line",
       "de": "Trennung von Wörtern",
@@ -567,7 +588,8 @@
     }
   },
   {
-    "folder": "22-e-mail",
+    "folder": "portal-messages/22-e-mail",
+    "category": "portal-messages",
     "titles": {
       "en": "E-mail",
       "de": "E-Mail",
@@ -594,7 +616,8 @@
     }
   },
   {
-    "folder": "23-academic-and-professional-titles",
+    "folder": "portal-messages/23-academic-and-professional-titles",
+    "category": "portal-messages",
     "titles": {
       "en": "Academic and professional titles",
       "de": "Akademische Titel",
@@ -621,7 +644,8 @@
     }
   },
   {
-    "folder": "24-highlighting-information",
+    "folder": "portal-messages/24-highlighting-information",
+    "category": "portal-messages",
     "titles": {
       "en": "Highlighting information",
       "de": "Hervorhebungen",
@@ -648,7 +672,8 @@
     }
   },
   {
-    "folder": "25-legal-correspondence",
+    "folder": "letters-and-documents/25-legal-correspondence",
+    "category": "letters-and-documents",
     "titles": {
       "en": "Legal correspondence",
       "de": "Rechtliches",
@@ -675,7 +700,8 @@
     }
   },
   {
-    "folder": "26-amounts-in-swiss-francs-chf",
+    "folder": "portal-messages/26-amounts-in-swiss-francs-chf",
+    "category": "portal-messages",
     "titles": {
       "en": "Amounts in Swiss francs/CHF",
       "de": "Frankenbeträge/CHF/Währungen",
@@ -702,7 +728,8 @@
     }
   },
   {
-    "folder": "27-common-mistakes",
+    "folder": "portal-messages/27-common-mistakes",
+    "category": "portal-messages",
     "titles": {
       "en": "Common mistakes",
       "de": "Sprachliche Zweifelsfälle",
@@ -729,7 +756,8 @@
     }
   },
   {
-    "folder": "28-hyphen-and-dash",
+    "folder": "portal-messages/28-hyphen-and-dash",
+    "category": "portal-messages",
     "titles": {
       "en": "Hyphen and dash",
       "de": "Binde- und Gedankenstriche",
@@ -756,7 +784,8 @@
     }
   },
   {
-    "folder": "29-apostrophe",
+    "folder": "portal-messages/29-apostrophe",
+    "category": "portal-messages",
     "titles": {
       "en": "Apostrophe",
       "de": "Apostroph",
@@ -783,7 +812,8 @@
     }
   },
   {
-    "folder": "30-titles-and-subheadings",
+    "folder": "marketing-and-publishing/30-titles-and-subheadings",
+    "category": "marketing-and-publishing",
     "titles": {
       "en": "Titles and subheadings",
       "de": "Titel und Untertitel",
@@ -810,7 +840,8 @@
     }
   },
   {
-    "folder": "31-product-names",
+    "folder": "marketing-and-publishing/31-product-names",
+    "category": "marketing-and-publishing",
     "titles": {
       "en": "Product names",
       "de": "Produktnamen",
@@ -837,7 +868,8 @@
     }
   },
   {
-    "folder": "32-percent-or",
+    "folder": "marketing-and-publishing/32-percent-or",
+    "category": "marketing-and-publishing",
     "titles": {
       "en": "Percent or %?",
       "de": "Prozent oder %",
@@ -864,7 +896,8 @@
     }
   },
   {
-    "folder": "33-amounts-in-swiss-francs-chf",
+    "folder": "marketing-and-publishing/33-amounts-in-swiss-francs-chf",
+    "category": "marketing-and-publishing",
     "titles": {
       "en": "Amounts in Swiss francs/CHF",
       "de": "Frankenbeträge/CHF",
@@ -891,7 +924,8 @@
     }
   },
   {
-    "folder": "34-form-of-address",
+    "folder": "marketing-and-publishing/34-form-of-address",
+    "category": "marketing-and-publishing",
     "titles": {
       "en": "Form of address",
       "de": "Anrede",
@@ -918,7 +952,8 @@
     }
   },
   {
-    "folder": "35-introduction",
+    "folder": "portal-messages/35-introduction",
+    "category": "portal-messages",
     "titles": {
       "en": "Introduction",
       "de": "Einleitung",
@@ -945,7 +980,8 @@
     }
   },
   {
-    "folder": "36-basic-knowledge-globo",
+    "folder": "internal-and-organisational/36-basic-knowledge-globo",
+    "category": "internal-and-organisational",
     "titles": {
       "en": "Basic knowledge > Globo",
       "de": "Grundlagenwissen > GLOBO",
@@ -972,7 +1008,8 @@
     }
   },
   {
-    "folder": "37-training-sessions-schreiben-helsana",
+    "folder": "internal-and-organisational/37-training-sessions-schreiben-helsana",
+    "category": "internal-and-organisational",
     "titles": {
       "en": "Training sessions schreiben@Helsana",
       "de": "Trainingsangebot Schreiben@Helsana",
@@ -999,7 +1036,8 @@
     }
   },
   {
-    "folder": "38-letter-templates",
+    "folder": "letters-and-documents/38-letter-templates",
+    "category": "letters-and-documents",
     "titles": {
       "en": "Letter templates",
       "de": "Brief-Mustervorlagen",
@@ -1026,7 +1064,8 @@
     }
   },
   {
-    "folder": "39-sender-types",
+    "folder": "letters-and-documents/39-sender-types",
+    "category": "letters-and-documents",
     "titles": {
       "en": "Sender types",
       "de": "Absendertypen",
@@ -1053,7 +1092,8 @@
     }
   },
   {
-    "folder": "40-signatures-in-written-communication",
+    "folder": "portal-messages/40-signatures-in-written-communication",
+    "category": "portal-messages",
     "titles": {
       "en": "Signatures in written communication",
       "de": "Signaturen Korrespondenz",
@@ -1080,7 +1120,8 @@
     }
   },
   {
-    "folder": "41-automatic-replies-out-of-office-in-outlook",
+    "folder": "internal-and-organisational/41-automatic-replies-out-of-office-in-outlook",
+    "category": "internal-and-organisational",
     "titles": {
       "en": "Automatic replies (Out of Office) in Outlook",
       "de": "Outlook Abwesenheitsmeldungen",
@@ -1107,7 +1148,8 @@
     }
   },
   {
-    "folder": "42-font-correspondence",
+    "folder": "internal-and-organisational/42-font-correspondence",
+    "category": "internal-and-organisational",
     "titles": {
       "en": "Font — correspondence",
       "de": "Schrift",
@@ -1134,7 +1176,8 @@
     }
   },
   {
-    "folder": "43-helsana-dictionary",
+    "folder": "internal-and-organisational/43-helsana-dictionary",
+    "category": "internal-and-organisational",
     "titles": {
       "en": "Helsana dictionary",
       "de": "Helsana Wörterbuch",
@@ -1161,7 +1204,8 @@
     }
   },
   {
-    "folder": "44-multilingualism",
+    "folder": "portal-messages/44-multilingualism",
+    "category": "portal-messages",
     "titles": {
       "en": "Multilingualism",
       "de": "Mehrsprachigkeit",
@@ -1188,7 +1232,8 @@
     }
   },
   {
-    "folder": "45-translate-or-adapt",
+    "folder": "internal-and-organisational/45-translate-or-adapt",
+    "category": "internal-and-organisational",
     "titles": {
       "en": "Translate or adapt?",
       "de": "Übersetzen oder adaptieren?",
@@ -1215,7 +1260,8 @@
     }
   },
   {
-    "folder": "46-product-names",
+    "folder": "portal-messages/46-product-names",
+    "category": "portal-messages",
     "titles": {
       "en": "Product names",
       "de": "Produktnamen",
