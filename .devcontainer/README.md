@@ -3,6 +3,17 @@
 Start Docker, install the VS Code Dev Containers extension, then run
 **Dev Containers: Reopen in Container**. Sign in to GitHub Copilot if prompted.
 
+## SSH keys
+
+The container mounts your host's `~/.ssh` folder read-only at `/tmp/host-ssh`.
+On each start, it copies the folder into `~/.ssh` and sets `600` permissions on
+private keys. The copy lives inside the container, so private keys are present
+there. Do not commit keys to the repository.
+
+On Windows, `${localEnv:HOME}` may be unset. In that case, change the mount
+source in [devcontainer.json](./devcontainer.json) to `${localEnv:USERPROFILE}/.ssh`
+(for example, in a local copy). Rebuild the container after changing it.
+
 The container mounts the repository's `.devcontainer/zscaler.pem` read-only and
 installs it into the system CA store on each start. Node.js, Python Requests,
 and pip are also configured to trust this certificate. Rebuild the container

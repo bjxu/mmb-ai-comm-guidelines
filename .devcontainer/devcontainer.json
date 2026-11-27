@@ -3,14 +3,15 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "remoteUser": "vscode",
   "mounts": [
-    "source=${localWorkspaceFolder}/.devcontainer/zscaler.pem,target=/tmp/zscaler-host-ca.pem,type=bind,readonly"
+    "source=${localWorkspaceFolder}/.devcontainer/zscaler.pem,target=/tmp/zscaler-host-ca.pem,type=bind,readonly",
+    "source=${localEnv:HOME}/.ssh,target=/tmp/host-ssh,type=bind,readonly"
   ],
   "containerEnv": {
     "NODE_EXTRA_CA_CERTS": "/tmp/zscaler-host-ca.pem",
     "REQUESTS_CA_BUNDLE": "/etc/ssl/certs/ca-certificates.crt",
     "PIP_CERT": "/etc/ssl/certs/ca-certificates.crt"
   },
-  "postStartCommand": "sudo install -m 0644 /tmp/zscaler-host-ca.pem /usr/local/share/ca-certificates/zscaler.crt && sudo update-ca-certificates",
+  "postStartCommand": "sudo install -m 0644 /tmp/zscaler-host-ca.pem /usr/local/share/ca-certificates/zscaler.crt && sudo update-ca-certificates && mkdir -p ~/.ssh && cp -r /tmp/host-ssh/. ~/.ssh/ && chmod 700 ~/.ssh && find ~/.ssh -type f -name 'id_*' ! -name '*.pub' -exec chmod 600 {} +",
   "customizations": {
     "vscode": {
       "extensions": [
