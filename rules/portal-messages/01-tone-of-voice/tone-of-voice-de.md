@@ -27,6 +27,7 @@ review_notes:
   - "The Avoid list keeps the source's generic masculine ('kompetente Berater'); linguistic equality takes precedence."
   - "Not in the source, added to prevent false reports and content changes: the exceptions for greetings and closings (001, 009), for the name Helsana (008) and for real uncertainty (010), and the instruction for input without concrete information (001)."
   - "de-012 (Sie) comes from one sentence in the source; the full rules are in section 10 Form of address. Severity set to mandatory, because 'du' towards a customer is an error, not a matter of style."
+  - "013: the source only says to write abbreviations out the first time. The bracket format, the exception for everyday abbreviations and the instruction not to guess unknown expansions are added; confirm."
 ---
 ## Relevant: wir geben Antworten
 
@@ -117,3 +118,10 @@ review_notes:
 - **Severity:** mandatory
 - **Source:** Corporate language DE, "Relevant", p. 2
 - **Instruction:** Address the reader as `Sie`. The detailed rules are in section 10, Form of address.
+
+### Write out abbreviations (`cpm-kbs-tone-de-013`)
+
+- **Severity:** guideline
+- **Source:** Corporate language DE, "Relevant", p. 2
+- **Instruction:** Write out an abbreviation in full the first time it appears, followed by the abbreviation in brackets, for example `Krankenversicherungsgesetz (KVG)`. After that, the abbreviation alone is fine. Write out an abbreviation only if its meaning is certain; otherwise report it and leave it unchanged.
+- **Not affected:** abbreviations that are common in everyday language, for example `CHF`, `z. B.`, `usw.`

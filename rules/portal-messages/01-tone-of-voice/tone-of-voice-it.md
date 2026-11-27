@@ -25,6 +25,7 @@ review_notes:
   - "it-006 (avoid adverbs ending in -mente) exists only in Italian. DE, EN and FR have different content under 'credible'."
   - "Not in the source, added to prevent false reports and content changes: the exceptions for greetings and closings (001, 009), for the name Helsana (008), for -mente adverbs without a simple alternative (006) and for real uncertainty (010), and the instruction for input without concrete information (001)."
   - "it-012: the source says 'diamo del voi (o del lei)', and its examples mix 'voi' and 'Lei'. For a portal message to one customer, 'Lei' is assumed; confirm, together with section 10 Form of address. Severity set to mandatory, because 'tu' towards a customer is an error, not a matter of style."
+  - "013: the source only says to write abbreviations out the first time. The bracket format, the exception for everyday abbreviations and the instruction not to guess unknown expansions are added; confirm."
 ---
 ## Rilevanza: forniamo risposte
 
@@ -115,3 +116,10 @@ review_notes:
 - **Severity:** mandatory
 - **Source:** Corporate language IT, "Rilevanza", p. 2
 - **Instruction:** Use the formal address. In a message to one customer, use `Lei`. The detailed rules are in section 10, Form of address.
+
+### Write out abbreviations (`cpm-kbs-tone-it-013`)
+
+- **Severity:** guideline
+- **Source:** Corporate language IT, "Rilevanza", p. 2
+- **Instruction:** Write out an abbreviation in full the first time it appears, followed by the abbreviation in brackets, for example `legge federale sull’assicurazione malattie (LAMal)`. After that, the abbreviation alone is fine. Write out an abbreviation only if its meaning is certain; otherwise report it and leave it unchanged.
+- **Not affected:** abbreviations that are common in everyday language, for example `CHF`, `p. es.`, `ecc.`

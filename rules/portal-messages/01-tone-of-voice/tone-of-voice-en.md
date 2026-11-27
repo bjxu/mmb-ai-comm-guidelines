@@ -26,6 +26,7 @@ review_notes:
   - "en-007: English has no section on foreign words. The rule only covers explaining technical terms, from the 'Relevant' paragraph."
   - "Not in the source, added to prevent false reports and content changes: the exceptions for greetings and closings (001, 009), for the name Helsana (008) and for real uncertainty (010), and the instruction for input without concrete information (001)."
   - "There is no en-012: the English source says nothing about the form of address in this section (see section 10)."
+  - "013: the source only says to write abbreviations out the first time. The bracket format, the exception for everyday abbreviations and the instruction not to guess unknown expansions are added; confirm."
 ---
 ## Relevant: we provide answers
 
@@ -102,3 +103,10 @@ review_notes:
 - **Severity:** guideline
 - **Source:** Corporate language EN, "Write in the active voice", p. 6
 - **Instruction:** Write in the active voice. Passive sentences are clumsy and make actions impersonal. Name the actor only if the input makes it clear; otherwise keep the passive.
+
+### Write out abbreviations (`cpm-kbs-tone-en-013`)
+
+- **Severity:** guideline
+- **Source:** Corporate language EN, "Relevant: we provide answers", p. 2
+- **Instruction:** Write out an abbreviation in full the first time it appears, followed by the abbreviation in brackets, for example `general practitioner (GP)`. After that, the abbreviation alone is fine. Write out an abbreviation only if its meaning is certain; otherwise report it and leave it unchanged.
+- **Not affected:** abbreviations that are common in everyday language, for example `CHF`, `e.g.`, `etc.`
