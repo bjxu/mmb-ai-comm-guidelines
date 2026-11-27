@@ -2,12 +2,14 @@
 title: "Dates and times in Italian"
 appliesWhen: >-
   Italian text (it-CH) containing a date, time or time range, including opening hours, deadlines and appointments; load even if the formatting looks correct.
-version: "1"
+version: "2"
 isGlobal: false
 document_id: "date-time-format-it"
-description: "Italian rules for generating and reviewing dates and times based on the corporate Helsana correspondence guidelines."
+requires:
+  - "date-time-format-general"
+description: "Italian rules for generating and reviewing dates and times, based on the Helsana corporate correspondence guidelines."
 content_type: "knowledge-base-source"
-updated: "2026-10-15"
+updated: "2026-11-27"
 author: "Marina Soblis"
 status: "draft"
 approval_status: "pending"
@@ -20,101 +22,91 @@ tags:
   - "corporate-language"
 sources:
   - source_id: "CPM-KB-SRC-002-it"
-    title: "Corporate language - Brand Portal_I.pdf"
+    title: "Corporate language - Italian.pdf"
+    sections: "Data e ora (p. 9–10); Oggetto (p. 31–33)"
+review_notes:
+  - "it-004: the source table writes 'ore 08.30' in running text but only '08.30' in subject lines and tables. Rule limited to running text."
+  - "it-005: version 1 called minutes optional but listed 'ore 12.00' as incorrect. Both forms are now accepted."
 ---
-These rules define formatting only. Preserve the factual date and time from the source; never infer, complete, calculate or change a missing or ambiguous value, and do not alter dates or times that are part of an identifier or other immutable value.
+Apply together with `date-time-format-general`, which defines running text versus short form, non-breaking spaces and four-digit years. The source names letters, e-mails and portal messages explicitly as running text.
 
-Where a rule below conflicts with another guideline, the more specific rule wins.
+## Date in running text (`cpm-kbs-datetime-it-001`)
 
-#### ruleId: `cpm-kbs-datetime-general-001`
+- **Applies to:** running text
+- **Severity:** mandatory
+- **Source:** Corporate language IT, "Data e ora", p. 9
+- **Instruction:** Write the day without a leading zero, then the full month name in lowercase, then the four-digit year.
+- **Format:** `d MMMM yyyy`
+- **Examples:**
 
-**Instruction:** Keep every complete date and time expression on one line.
+  | Incorrect | Correct |
+  |---|---|
+  | `03 settembre 2026` | `3 settembre 2026` |
+  | `3 Settembre 2026` | `3 settembre 2026` |
+  | `3 sett. 2026` | `3 settembre 2026` |
+  | `03.09.2026` | `3 settembre 2026` |
 
-#### ruleId: `cpm-kbs-datetime-general-002`
+## First day of the month (`cpm-kbs-datetime-it-002`)
 
-**Instruction:** When you write or rewrite a date or time expression, join its components with non-breaking spaces (U+00A0) so that a line break cannot separate them. This applies only to text you generate. When reviewing, never report a suggestion or issue for ordinary versus non-breaking spaces, and never flag a date or time that is already correct apart from the type of space; leave such text unchanged.
+- **Applies to:** running text
+- **Severity:** mandatory
+- **Source:** Corporate language IT, "Data e ora", p. 9
+- **Instruction:** Write the first day of a month with the ordinal sign: `1°`. Write all other days as plain numbers.
+- **Examples:**
 
-#### ruleId: `cpm-kbs-datetime-it-001`
+  | Incorrect | Correct |
+  |---|---|
+  | `1 dicembre 2026` | `1° dicembre 2026` |
+  | `1o dicembre 2026` | `1° dicembre 2026` |
+  | `2° dicembre 2026` | `2 dicembre 2026` |
 
-**Instruction:** Write the date in the order day, month, year.
+## Times (`cpm-kbs-datetime-it-003`)
 
-Apply the following formatting rules:
+- **Applies to:** running text and short form
+- **Severity:** mandatory
+- **Source:** Corporate language IT, "Data e ora", p. 9
+- **Instruction:** Use the 24-hour clock with four digits: a leading zero for hours below 10 and a full stop between hours and minutes.
+- **Format:** `hh.mm`
+- **Examples:**
 
-- Write the day without a leading zero.
-- Write the month name in full and in lowercase.
-- Write the year after the month.
+  | Incorrect | Correct |
+  |---|---|
+  | `9.30` | `09.30` |
+  | `09:30` | `09.30` |
+  | `9h30` | `09.30` |
 
-**Format:** `d MMMM yyyy`
+## `ore` before the time (`cpm-kbs-datetime-it-004`)
 
-**Correct:**
+- **Applies to:** running text
+- **Severity:** mandatory
+- **Source:** Corporate language IT, "Data e ora", p. 9
+- **Instruction:** In running text, write `ore` before the time. Do not add `ore` in subject lines or tables.
+- **Examples:**
 
-- `3 settembre 2026`
+  | Incorrect | Correct |
+  |---|---|
+  | `alle 09.30` | `alle ore 09.30` |
+  | `09.30 ore` | `ore 09.30` |
 
-**Incorrect:**
+## Full hours in running text (`cpm-kbs-datetime-it-005`)
 
-- `03 settembre 2026`
-- `3 Settembre 2026`
-- `settembre 3 2026`
-- `03 sett 2026`
+- **Applies to:** running text, times on the full hour
+- **Severity:** preferred
+- **Source:** Corporate language IT, "Data e ora", p. 9
+- **Instruction:** When generating, write full hours without minutes. When reviewing, accept both forms.
+- **Preferred:** `Siamo aperti per lei fino alle ore 12.`
+- **Also accepted:** `Siamo aperti per lei fino alle ore 12.00.`
 
-#### ruleId: `cpm-kbs-datetime-it-002`
+## Date in subject lines and tables (`cpm-kbs-datetime-it-006`)
 
-**Instruction:** Write the first day of a month using the ordinal symbol `°`. Use cardinal numbers for all subsequent days of the month.
+- **Applies to:** short form (subject lines, tables)
+- **Severity:** mandatory
+- **Source:** Corporate language IT, "Data e ora", p. 9; "Oggetto", p. 31
+- **Instruction:** Write the date in numbers with leading zeros, separated by full stops.
+- **Format:** `dd.mm.yyyy`
+- **Examples:**
 
-**Correct:**
-
-- `1° dicembre 2026`
-- `2 dicembre 2026`
-
-**Incorrect:**
-
-- `1 dicembre 2026`
-- `2° dicembre 2026`
-
-
-#### ruleId: `cpm-kbs-datetime-it-003`
-
-**Instruction:** Use the 24-hour clock.
-
-Apply the following formatting rules:
-
-- Write the hour with two digits.
-- Separate hours and minutes with a full stop.
-
-**Format:** `hh.mm`
-
-**Correct:**
-
-- `09.30`
-- `15.45`
-
-**Incorrect:**
-
-- `9.30`
-- `09:30`
-
-#### ruleId: `cpm-kbs-datetime-it-004`
-
-**Instruction:** Write `ore` before the time and use a non-breaking space between `ore` and the time.
-
-**Correct:**
-
-- `ore 09.30`
-
-**Incorrect:**
-
-- `09.30 ore`
-
-#### ruleId: `cpm-kbs-datetime-it-005`
-
-**Applies to:** Full hours in running text.
-
-**Instruction:** Minutes may optionally be omitted when expressing a full hour in running text.
-
-**Correct:**
-
-- `Siamo aperti per lei fino alle ore 12.`
-
-**Incorrect:**
-
-- `Siamo aperti per lei fino alle ore 12.00.`
+  | Incorrect | Correct |
+  |---|---|
+  | `3.9.2026` | `03.09.2026` |
+  | `3 settembre 2026` | `03.09.2026` |

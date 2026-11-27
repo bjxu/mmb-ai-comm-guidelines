@@ -2,12 +2,14 @@
 title: "Dates and times in German"
 appliesWhen: >-
   German text (de-CH) containing a date, time or time range, including opening hours, deadlines and appointments; load even if the formatting looks correct.
-version: "1"
+version: "2"
 isGlobal: false
 document_id: "date-time-format-de"
-description: "German rules for generating and reviewing dates and times based on the corporate Helsana correspondence guidelines."
+requires:
+  - "date-time-format-general"
+description: "German rules for generating and reviewing dates and times, based on the Helsana corporate correspondence guidelines."
 content_type: "knowledge-base-source"
-updated: "2026-10-15"
+updated: "2026-11-27"
 author: "Marina Soblis"
 status: "draft"
 approval_status: "pending"
@@ -20,79 +22,81 @@ tags:
   - "corporate-language"
 sources:
   - source_id: "CPM-KB-SRC-002-de"
-    title: "Corporate language - Brand Portal.pdf"
+    title: "Corporate language - German.pdf"
+    sections: "Datum und Zeit (p. 10–11); Betreffzeilen (p. 32–34)"
+review_notes:
+  - "de-003: the source says full hours *may* be written without minutes ('darfst'). Changed from mandatory to preferred."
+  - "The source refers to Duden and DIN 5008 for everything not listed here."
 ---
-These rules define formatting only. Preserve the factual date and time from the source; never infer, complete, calculate or change a missing or ambiguous value, and do not alter dates or times that are part of an identifier or other immutable value.
+Apply together with `date-time-format-general`, which defines running text versus short form, non-breaking spaces and four-digit years.
 
-Where a rule below conflicts with another guideline, the more specific rule wins.
+## Date in running text (`cpm-kbs-datetime-de-001`)
 
-#### ruleId: `cpm-kbs-datetime-general-001`
+- **Applies to:** running text
+- **Severity:** mandatory
+- **Source:** Corporate language DE, "Datum und Zeit", p. 10
+- **Instruction:** Write the day without a leading zero, followed by a full stop, then the full month name, then the four-digit year.
+- **Format:** `d. MMMM yyyy`
+- **Examples:**
 
-**Instruction:** Keep every complete date and time expression on one line.
+  | Incorrect | Correct |
+  |---|---|
+  | `03. September 2026` | `3. September 2026` |
+  | `3 September 2026` | `3. September 2026` |
+  | `3.september 2026` | `3. September 2026` |
+  | `3. Sept. 2026` | `3. September 2026` |
+  | `03.09.2026` | `3. September 2026` |
 
-#### ruleId: `cpm-kbs-datetime-general-002`
+## Time in running text (`cpm-kbs-datetime-de-002`)
 
-**Instruction:** When you write or rewrite a date or time expression, join its components with non-breaking spaces (U+00A0) so that a line break cannot separate them. This applies only to text you generate. When reviewing, never report a suggestion or issue for ordinary versus non-breaking spaces, and never flag a date or time that is already correct apart from the type of space; leave such text unchanged.
+- **Applies to:** running text
+- **Severity:** mandatory
+- **Source:** Corporate language DE, "Datum und Zeit", p. 10
+- **Instruction:** Use the 24-hour clock. Write the hour without a leading zero, separate hours and minutes with a full stop, and add `Uhr`.
+- **Format:** `h.mm Uhr`
+- **Examples:**
 
-#### ruleId: `cpm-kbs-datetime-de-001`
+  | Incorrect | Correct |
+  |---|---|
+  | `09.30 Uhr` | `9.30 Uhr` |
+  | `9:45 Uhr` | `9.45 Uhr` |
+  | `9.30` | `9.30 Uhr` |
+  | `13:30` | `13.30 Uhr` |
 
-**Instruction:** Write the date in the order day, month, year.
+## Full hours in running text (`cpm-kbs-datetime-de-003`)
 
-Apply the following formatting rules:
+- **Applies to:** running text, times on the full hour
+- **Severity:** preferred
+- **Source:** Corporate language DE, "Datum und Zeit", p. 10
+- **Instruction:** When generating, write full hours without minutes. When reviewing, accept both forms.
+- **Preferred:** `Wir haben von 8 bis 12 Uhr für Sie geöffnet.`
+- **Also accepted:** `Wir haben von 8.00 bis 12.00 Uhr für Sie geöffnet.`
 
-- Write the day without a leading zero.
-- Add a full stop after the day.
-- Write the month name in full with an initial capital letter.
-- Write the year after the month.
-- Write the year with four digits. Expand a two-digit year to the current century (`26` becomes `2026`).
+## Date in subject lines and tables (`cpm-kbs-datetime-de-004`)
 
-**Format:** `d. MMMM yyyy`
+- **Applies to:** short form (subject lines, tables)
+- **Severity:** mandatory
+- **Source:** Corporate language DE, "Datum und Zeit", p. 10; "Betreffzeilen", p. 32
+- **Instruction:** Write the date in numbers with leading zeros, separated by full stops.
+- **Format:** `dd.mm.yyyy`
+- **Examples:**
 
-**Correct:**
+  | Incorrect | Correct |
+  |---|---|
+  | `3.9.2026` | `03.09.2026` |
+  | `3. September 2026` | `03.09.2026` |
+  | `03/09/2026` | `03.09.2026` |
 
-- `3. September 2026`
+## Time in subject lines and tables (`cpm-kbs-datetime-de-005`)
 
-**Incorrect:**
+- **Applies to:** short form (subject lines, tables)
+- **Severity:** mandatory
+- **Source:** Corporate language DE, "Datum und Zeit", p. 10
+- **Instruction:** Use the 24-hour clock with a leading zero, a full stop between hours and minutes, and `Uhr`.
+- **Format:** `hh.mm Uhr`
+- **Examples:**
 
-- `03. September 2026`
-- `4. April 26`
-- `4 April 26`
-- `3 September 2026`
-- `3.september 2026`
-- `September 3 2026`
-
-
-#### ruleId: `cpm-kbs-datetime-de-002`
-
-**Instruction:** Use the 24-hour clock.
-
-Apply the following formatting rules:
-
-- Write the hour without a leading zero.
-- Separate hours and minutes with a full stop.
-- Add `Uhr` after the time.
-- Use a non-breaking space between the time and `Uhr`.
-
-**Format:** `h.mm Uhr`
-
-**Correct:**
-
-- `9.30 Uhr`
-- `11.45 Uhr`
-- `13.30 Uhr`
-
-**Incorrect:**
-
-- `09.30 Uhr`
-- `9.30`
-- `9:45 Uhr`
-
-#### ruleId: `cpm-kbs-datetime-de-003`
-
-**Applies to:** Full hours in running text.
-
-**Instruction:** Omit the minutes when expressing a full hour in running text.
-
-**Correct:**
-
-- `Wir haben von 8 bis 12 Uhr für Sie geöffnet.`
+  | Incorrect | Correct |
+  |---|---|
+  | `8.30 Uhr` | `08.30 Uhr` |
+  | `08:30` | `08.30 Uhr` |
