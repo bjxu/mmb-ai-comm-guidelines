@@ -5,8 +5,6 @@ appliesWhen: >-
 version: "2"
 isGlobal: false
 document_id: "date-time-format-fr"
-requires:
-  - "date-time-format-general"
 description: "French rules for generating and reviewing dates and times, based on the Helsana corporate correspondence guidelines."
 content_type: "knowledge-base-source"
 updated: "2026-11-27"
@@ -29,8 +27,6 @@ review_notes:
   - "fr-003: the source says full hours *may* be written without minutes ('tu peux'). Changed from mandatory to preferred."
   - "fr-005: '1er' is not mentioned in 'Date et heure'; it comes from the example 'née le 1er janvier 2020' in 'Objets'. Confirm."
 ---
-Apply together with `date-time-format-general`, which defines running text versus short form, non-breaking spaces and four-digit years.
-
 ## Date in running text (`cpm-kbs-datetime-fr-001`)
 
 - **Applies to:** running text

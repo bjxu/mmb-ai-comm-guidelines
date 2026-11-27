@@ -5,8 +5,6 @@ appliesWhen: >-
 version: "2"
 isGlobal: false
 document_id: "date-time-format-it"
-requires:
-  - "date-time-format-general"
 description: "Italian rules for generating and reviewing dates and times, based on the Helsana corporate correspondence guidelines."
 content_type: "knowledge-base-source"
 updated: "2026-11-27"
@@ -28,7 +26,7 @@ review_notes:
   - "it-004: the source table writes 'ore 08.30' in running text but only '08.30' in subject lines and tables. Rule limited to running text."
   - "it-005: version 1 called minutes optional but listed 'ore 12.00' as incorrect. Both forms are now accepted."
 ---
-Apply together with `date-time-format-general`, which defines running text versus short form, non-breaking spaces and four-digit years. The source names letters, e-mails and portal messages explicitly as running text.
+The source names letters, e-mails and portal messages explicitly as running text.
 
 ## Date in running text (`cpm-kbs-datetime-it-001`)
 

@@ -5,8 +5,6 @@ appliesWhen: >-
 version: "2"
 isGlobal: false
 document_id: "date-time-format-de"
-requires:
-  - "date-time-format-general"
 description: "German rules for generating and reviewing dates and times, based on the Helsana corporate correspondence guidelines."
 content_type: "knowledge-base-source"
 updated: "2026-11-27"
@@ -28,8 +26,6 @@ review_notes:
   - "de-003: the source says full hours *may* be written without minutes ('darfst'). Changed from mandatory to preferred."
   - "The source refers to Duden and DIN 5008 for everything not listed here."
 ---
-Apply together with `date-time-format-general`, which defines running text versus short form, non-breaking spaces and four-digit years.
-
 ## Date in running text (`cpm-kbs-datetime-de-001`)
 
 - **Applies to:** running text
