@@ -2,9 +2,11 @@
   "name": "Communication guidelines",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "remoteUser": "vscode",
+  "initializeCommand": "mkdir -p \"$HOME/.copilot\"",
   "mounts": [
     "source=${localWorkspaceFolder}/.devcontainer/zscaler.pem,target=/tmp/zscaler-host-ca.pem,type=bind,readonly",
-    "source=${localEnv:HOME}/.ssh,target=/tmp/host-ssh,type=bind,readonly"
+    "source=${localEnv:HOME}/.ssh,target=/tmp/host-ssh,type=bind,readonly",
+    "source=${localEnv:HOME}/.copilot,target=/home/vscode/.copilot,type=bind"
   ],
   "containerEnv": {
     "NODE_EXTRA_CA_CERTS": "/tmp/zscaler-host-ca.pem",

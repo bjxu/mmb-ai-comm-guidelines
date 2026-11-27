@@ -1,0 +1,1244 @@
+[
+  {
+    "folder": "01-tone-of-voice",
+    "titles": {
+      "en": "Tone of voice",
+      "de": "Zum guten Ton",
+      "fr": "C'est Le ton qui fait la musique.",
+      "it": "«Bon ton»"
+    },
+    "pages": {
+      "en": [
+        1,
+        6
+      ],
+      "de": [
+        1,
+        7
+      ],
+      "fr": [
+        1,
+        7
+      ],
+      "it": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "folder": "02-good-to-know",
+    "titles": {
+      "en": "Good to know",
+      "de": "Gut zu wissen",
+      "fr": "Bon à savoir",
+      "it": "Buono a sapersi"
+    },
+    "pages": {
+      "en": [
+        6,
+        7
+      ],
+      "de": [
+        7,
+        7
+      ],
+      "fr": [
+        7,
+        8
+      ],
+      "it": [
+        7,
+        7
+      ]
+    }
+  },
+  {
+    "folder": "03-abbreviations",
+    "titles": {
+      "en": "Abbreviations",
+      "de": "Abkürzungen",
+      "fr": "Abréviations",
+      "it": "Abbreviazioni"
+    },
+    "pages": {
+      "en": [
+        7,
+        8
+      ],
+      "de": [
+        7,
+        9
+      ],
+      "fr": [
+        8,
+        10
+      ],
+      "it": [
+        7,
+        9
+      ]
+    }
+  },
+  {
+    "folder": "04-quotation-marks",
+    "titles": {
+      "en": "Quotation marks",
+      "de": "Anführungszeichen",
+      "fr": "Guillemets",
+      "it": "Virgolette"
+    },
+    "pages": {
+      "en": [
+        8,
+        9
+      ],
+      "de": [
+        9,
+        10
+      ],
+      "fr": [
+        10,
+        10
+      ],
+      "it": [
+        9,
+        9
+      ]
+    }
+  },
+  {
+    "folder": "05-date-and-times",
+    "titles": {
+      "en": "Date and times",
+      "de": "Datum und Zeit",
+      "fr": "Date et heure",
+      "it": "Data e ora"
+    },
+    "pages": {
+      "en": [
+        9,
+        10
+      ],
+      "de": [
+        10,
+        11
+      ],
+      "fr": [
+        10,
+        11
+      ],
+      "it": [
+        9,
+        10
+      ]
+    }
+  },
+  {
+    "folder": "06-capital-letters",
+    "titles": {
+      "en": "Capital letters",
+      "de": "Gross-/Kleinschreibung",
+      "fr": "Majuscules/minuscules",
+      "it": "Uso delle maiuscole"
+    },
+    "pages": {
+      "en": [
+        10,
+        11
+      ],
+      "de": [
+        11,
+        12
+      ],
+      "fr": [
+        11,
+        13
+      ],
+      "it": [
+        10,
+        11
+      ]
+    }
+  },
+  {
+    "folder": "07-website-addresses-url",
+    "titles": {
+      "en": "Website addresses (URL)",
+      "de": "Internetadressen (URL)",
+      "fr": "Adresses Internet (URL)",
+      "it": "Indirizzi Internet (URL)"
+    },
+    "pages": {
+      "en": [
+        11,
+        12
+      ],
+      "de": [
+        12,
+        13
+      ],
+      "fr": [
+        13,
+        15
+      ],
+      "it": [
+        11,
+        13
+      ]
+    }
+  },
+  {
+    "folder": "08-numbers",
+    "titles": {
+      "en": "Numbers",
+      "de": "Zahlen: In Ziffern oder Worten?",
+      "fr": "Des chiffres ou des lettres ?",
+      "it": "Numeri in cifre o in lettere?"
+    },
+    "pages": {
+      "en": [
+        12,
+        13
+      ],
+      "de": [
+        13,
+        14
+      ],
+      "fr": [
+        15,
+        16
+      ],
+      "it": [
+        13,
+        13
+      ]
+    }
+  },
+  {
+    "folder": "09-thousands-and-years",
+    "titles": {
+      "en": "Thousands and years",
+      "de": "Zahlen lesbar schreiben",
+      "fr": "Écrire les chiffres de manière lisible",
+      "it": "Scrivere i numeri in modo leggibile"
+    },
+    "pages": {
+      "en": [
+        13,
+        14
+      ],
+      "de": [
+        14,
+        15
+      ],
+      "fr": [
+        16,
+        17
+      ],
+      "it": [
+        13,
+        14
+      ]
+    }
+  },
+  {
+    "folder": "10-form-of-address",
+    "titles": {
+      "en": "Form of address",
+      "de": "Anrede",
+      "fr": "Formule d'appel et salutations",
+      "it": "Appellativo"
+    },
+    "pages": {
+      "en": [
+        14,
+        18
+      ],
+      "de": [
+        15,
+        18
+      ],
+      "fr": [
+        17,
+        20
+      ],
+      "it": [
+        14,
+        19
+      ]
+    }
+  },
+  {
+    "folder": "11-referring-to-legal-texts",
+    "titles": {
+      "en": "Referring to legal texts",
+      "de": "Gesetzesartikel ja oder nein?",
+      "fr": "Articles de loi, oui ou non ?",
+      "it": "Articolo di legge sì o no?"
+    },
+    "pages": {
+      "en": [
+        18,
+        22
+      ],
+      "de": [
+        18,
+        22
+      ],
+      "fr": [
+        20,
+        24
+      ],
+      "it": [
+        19,
+        22
+      ]
+    }
+  },
+  {
+    "folder": "12-helsana-the-brand",
+    "titles": {
+      "en": "Helsana the brand",
+      "de": "Helsana als Marke",
+      "fr": "Helsana la marque",
+      "it": "Helsana il marchio"
+    },
+    "pages": {
+      "en": [
+        22,
+        23
+      ],
+      "de": [
+        22,
+        23
+      ],
+      "fr": [
+        24,
+        25
+      ],
+      "it": [
+        22,
+        23
+      ]
+    }
+  },
+  {
+    "folder": "13-product-names",
+    "titles": {
+      "en": "Product names",
+      "de": "Produktnamen",
+      "fr": "Les noms de produits",
+      "it": "Nomi di prodotti"
+    },
+    "pages": {
+      "en": [
+        23,
+        26
+      ],
+      "de": [
+        23,
+        26
+      ],
+      "fr": [
+        25,
+        28
+      ],
+      "it": [
+        23,
+        26
+      ]
+    }
+  },
+  {
+    "folder": "14-telephone",
+    "titles": {
+      "en": "Telephone",
+      "de": "Telefon",
+      "fr": "Téléphone",
+      "it": "Telefono"
+    },
+    "pages": {
+      "en": [
+        26,
+        27
+      ],
+      "de": [
+        26,
+        27
+      ],
+      "fr": [
+        28,
+        30
+      ],
+      "it": [
+        26,
+        27
+      ]
+    }
+  },
+  {
+    "folder": "15-percent-or",
+    "titles": {
+      "en": "Percent or %?",
+      "de": "Prozent oder %",
+      "fr": "Pourcent ou % ?",
+      "it": "Per cento 0 %"
+    },
+    "pages": {
+      "en": [
+        27,
+        27
+      ],
+      "de": [
+        27,
+        27
+      ],
+      "fr": [
+        30,
+        30
+      ],
+      "it": [
+        27,
+        27
+      ]
+    }
+  },
+  {
+    "folder": "16-linguistic-equality",
+    "titles": {
+      "en": "Linguistic equality",
+      "de": "Sprachliche Gleichstellung",
+      "fr": "Langage inclusif",
+      "it": "Pari trattamento linguistico"
+    },
+    "pages": {
+      "en": [
+        27,
+        30
+      ],
+      "de": [
+        27,
+        32
+      ],
+      "fr": [
+        30,
+        33
+      ],
+      "it": [
+        27,
+        31
+      ]
+    }
+  },
+  {
+    "folder": "17-subject-line",
+    "titles": {
+      "en": "Subject line",
+      "de": "Betreffzeilen",
+      "fr": "Objets",
+      "it": "Oggetto"
+    },
+    "pages": {
+      "en": [
+        30,
+        32
+      ],
+      "de": [
+        32,
+        34
+      ],
+      "fr": [
+        33,
+        35
+      ],
+      "it": [
+        31,
+        33
+      ]
+    }
+  },
+  {
+    "folder": "18-decimal-point",
+    "titles": {
+      "en": "Decimal point",
+      "de": "Dezimalzeichen",
+      "fr": "Signes marquant les décimales",
+      "it": "Separatore decimale"
+    },
+    "pages": {
+      "en": [
+        32,
+        33
+      ],
+      "de": [
+        34,
+        35
+      ],
+      "fr": [
+        35,
+        35
+      ],
+      "it": [
+        33,
+        33
+      ]
+    }
+  },
+  {
+    "folder": "19-postscript-ps",
+    "titles": {
+      "en": "Postscript (PS)",
+      "de": "PS-Sätze",
+      "fr": "Phrases P-S.",
+      "it": "Frasi con PS."
+    },
+    "pages": {
+      "en": [
+        33,
+        34
+      ],
+      "de": [
+        35,
+        36
+      ],
+      "fr": [
+        35,
+        36
+      ],
+      "it": [
+        33,
+        34
+      ]
+    }
+  },
+  {
+    "folder": "20-slash-without-spaces",
+    "titles": {
+      "en": "Slash “/” without spaces",
+      "de": "Schrägstrich/ohne Abstand",
+      "fr": "Barre oblique « / » sans espace",
+      "it": "Barra obliqua «/» senza spazio"
+    },
+    "pages": {
+      "en": [
+        34,
+        34
+      ],
+      "de": [
+        36,
+        37
+      ],
+      "fr": [
+        36,
+        37
+      ],
+      "it": [
+        34,
+        35
+      ]
+    }
+  },
+  {
+    "folder": "21-division-of-words-at-the-end-of-a-line",
+    "titles": {
+      "en": "Division of words at the end of a line",
+      "de": "Trennung von Wörtern",
+      "fr": "Coupures de mots",
+      "it": "Sillabazione — divisione delle parole a fine riga"
+    },
+    "pages": {
+      "en": [
+        34,
+        36
+      ],
+      "de": [
+        37,
+        38
+      ],
+      "fr": [
+        37,
+        39
+      ],
+      "it": [
+        35,
+        37
+      ]
+    }
+  },
+  {
+    "folder": "22-e-mail",
+    "titles": {
+      "en": "E-mail",
+      "de": "E-Mail",
+      "fr": "E-mail",
+      "it": "E-mail"
+    },
+    "pages": {
+      "en": [
+        36,
+        36
+      ],
+      "de": [
+        38,
+        38
+      ],
+      "fr": [
+        39,
+        39
+      ],
+      "it": [
+        37,
+        37
+      ]
+    }
+  },
+  {
+    "folder": "23-academic-and-professional-titles",
+    "titles": {
+      "en": "Academic and professional titles",
+      "de": "Akademische Titel",
+      "fr": "Titres académiques et politiques",
+      "it": "Titoli accademici e politici"
+    },
+    "pages": {
+      "en": [
+        36,
+        37
+      ],
+      "de": [
+        38,
+        39
+      ],
+      "fr": [
+        39,
+        40
+      ],
+      "it": [
+        37,
+        38
+      ]
+    }
+  },
+  {
+    "folder": "24-highlighting-information",
+    "titles": {
+      "en": "Highlighting information",
+      "de": "Hervorhebungen",
+      "fr": "Mises en évidence",
+      "it": "Evidenziazioni"
+    },
+    "pages": {
+      "en": [
+        37,
+        37
+      ],
+      "de": [
+        39,
+        39
+      ],
+      "fr": [
+        40,
+        40
+      ],
+      "it": [
+        38,
+        38
+      ]
+    }
+  },
+  {
+    "folder": "25-legal-correspondence",
+    "titles": {
+      "en": "Legal correspondence",
+      "de": "Rechtliches",
+      "fr": "Aspects juridiques",
+      "it": "Aspetti giuridici"
+    },
+    "pages": {
+      "en": [
+        37,
+        43
+      ],
+      "de": [
+        39,
+        45
+      ],
+      "fr": [
+        40,
+        46
+      ],
+      "it": [
+        38,
+        44
+      ]
+    }
+  },
+  {
+    "folder": "26-amounts-in-swiss-francs-chf",
+    "titles": {
+      "en": "Amounts in Swiss francs/CHF",
+      "de": "Frankenbeträge/CHF/Währungen",
+      "fr": "Montants en francs/CHF/Devises",
+      "it": "Importi in franchi/CHF/Valuta"
+    },
+    "pages": {
+      "en": [
+        43,
+        45
+      ],
+      "de": [
+        45,
+        47
+      ],
+      "fr": [
+        46,
+        48
+      ],
+      "it": [
+        44,
+        46
+      ]
+    }
+  },
+  {
+    "folder": "27-common-mistakes",
+    "titles": {
+      "en": "Common mistakes",
+      "de": "Sprachliche Zweifelsfälle",
+      "fr": "Difficultés linguistiques",
+      "it": "Dubbi linguistici"
+    },
+    "pages": {
+      "en": [
+        45,
+        48
+      ],
+      "de": [
+        47,
+        49
+      ],
+      "fr": [
+        48,
+        50
+      ],
+      "it": [
+        46,
+        49
+      ]
+    }
+  },
+  {
+    "folder": "28-hyphen-and-dash",
+    "titles": {
+      "en": "Hyphen and dash",
+      "de": "Binde- und Gedankenstriche",
+      "fr": "Tirets(—-)ettraits d'union (-)",
+      "it": "Trattino e lineetta"
+    },
+    "pages": {
+      "en": [
+        48,
+        49
+      ],
+      "de": [
+        49,
+        50
+      ],
+      "fr": [
+        50,
+        52
+      ],
+      "it": [
+        49,
+        50
+      ]
+    }
+  },
+  {
+    "folder": "29-apostrophe",
+    "titles": {
+      "en": "Apostrophe",
+      "de": "Apostroph",
+      "fr": "Apostrophe",
+      "it": "Apostrofo"
+    },
+    "pages": {
+      "en": [
+        49,
+        50
+      ],
+      "de": [
+        50,
+        51
+      ],
+      "fr": [
+        52,
+        52
+      ],
+      "it": [
+        50,
+        51
+      ]
+    }
+  },
+  {
+    "folder": "30-titles-and-subheadings",
+    "titles": {
+      "en": "Titles and subheadings",
+      "de": "Titel und Untertitel",
+      "fr": "Titres et sous-titres",
+      "it": "Titoli e sottotitoli"
+    },
+    "pages": {
+      "en": [
+        50,
+        52
+      ],
+      "de": [
+        51,
+        54
+      ],
+      "fr": [
+        52,
+        55
+      ],
+      "it": [
+        51,
+        53
+      ]
+    }
+  },
+  {
+    "folder": "31-product-names",
+    "titles": {
+      "en": "Product names",
+      "de": "Produktnamen",
+      "fr": "Les noms de produits",
+      "it": "Nomi di prodotti"
+    },
+    "pages": {
+      "en": [
+        52,
+        53
+      ],
+      "de": [
+        54,
+        55
+      ],
+      "fr": [
+        55,
+        56
+      ],
+      "it": [
+        53,
+        54
+      ]
+    }
+  },
+  {
+    "folder": "32-percent-or",
+    "titles": {
+      "en": "Percent or %?",
+      "de": "Prozent oder %",
+      "fr": "Pourcent ou % ?",
+      "it": "Per cento 0 %?"
+    },
+    "pages": {
+      "en": [
+        53,
+        53
+      ],
+      "de": [
+        55,
+        56
+      ],
+      "fr": [
+        56,
+        57
+      ],
+      "it": [
+        54,
+        54
+      ]
+    }
+  },
+  {
+    "folder": "33-amounts-in-swiss-francs-chf",
+    "titles": {
+      "en": "Amounts in Swiss francs/CHF",
+      "de": "Frankenbeträge/CHF",
+      "fr": "Montants en francs/CHF",
+      "it": "Importi in franchi/CHF"
+    },
+    "pages": {
+      "en": [
+        53,
+        54
+      ],
+      "de": [
+        56,
+        56
+      ],
+      "fr": [
+        57,
+        57
+      ],
+      "it": [
+        54,
+        55
+      ]
+    }
+  },
+  {
+    "folder": "34-form-of-address",
+    "titles": {
+      "en": "Form of address",
+      "de": "Anrede",
+      "fr": "Civilté",
+      "it": "Appellativo"
+    },
+    "pages": {
+      "en": [
+        54,
+        54
+      ],
+      "de": [
+        56,
+        57
+      ],
+      "fr": [
+        57,
+        58
+      ],
+      "it": [
+        55,
+        56
+      ]
+    }
+  },
+  {
+    "folder": "35-introduction",
+    "titles": {
+      "en": "Introduction",
+      "de": "Einleitung",
+      "fr": "Introduction",
+      "it": "Introduzione"
+    },
+    "pages": {
+      "en": [
+        54,
+        56
+      ],
+      "de": [
+        57,
+        59
+      ],
+      "fr": [
+        58,
+        60
+      ],
+      "it": [
+        56,
+        57
+      ]
+    }
+  },
+  {
+    "folder": "36-basic-knowledge-globo",
+    "titles": {
+      "en": "Basic knowledge > Globo",
+      "de": "Grundlagenwissen > GLOBO",
+      "fr": "Connaissances de base > Globo",
+      "it": "Conoscenza di base > Globo"
+    },
+    "pages": {
+      "en": [
+        56,
+        56
+      ],
+      "de": [
+        59,
+        60
+      ],
+      "fr": [
+        60,
+        60
+      ],
+      "it": [
+        57,
+        58
+      ]
+    }
+  },
+  {
+    "folder": "37-training-sessions-schreiben-helsana",
+    "titles": {
+      "en": "Training sessions schreiben@Helsana",
+      "de": "Trainingsangebot Schreiben@Helsana",
+      "fr": "Offre de formation Écrire@Helsana",
+      "it": "Offerta di formazione Scrivere@Helsana"
+    },
+    "pages": {
+      "en": [
+        56,
+        57
+      ],
+      "de": [
+        60,
+        60
+      ],
+      "fr": [
+        60,
+        61
+      ],
+      "it": [
+        58,
+        58
+      ]
+    }
+  },
+  {
+    "folder": "38-letter-templates",
+    "titles": {
+      "en": "Letter templates",
+      "de": "Brief-Mustervorlagen",
+      "fr": "Modèle de lettre",
+      "it": "Modelli di lettere"
+    },
+    "pages": {
+      "en": [
+        57,
+        60
+      ],
+      "de": [
+        60,
+        63
+      ],
+      "fr": [
+        61,
+        63
+      ],
+      "it": [
+        58,
+        60
+      ]
+    }
+  },
+  {
+    "folder": "39-sender-types",
+    "titles": {
+      "en": "Sender types",
+      "de": "Absendertypen",
+      "fr": "Types d'expéditeur",
+      "it": "Tipi di mittente"
+    },
+    "pages": {
+      "en": [
+        60,
+        63
+      ],
+      "de": [
+        63,
+        66
+      ],
+      "fr": [
+        63,
+        67
+      ],
+      "it": [
+        60,
+        64
+      ]
+    }
+  },
+  {
+    "folder": "40-signatures-in-written-communication",
+    "titles": {
+      "en": "Signatures in written communication",
+      "de": "Signaturen Korrespondenz",
+      "fr": "Signatures dans la correspondance",
+      "it": "Firme nella comunicazione scritta"
+    },
+    "pages": {
+      "en": [
+        63,
+        70
+      ],
+      "de": [
+        66,
+        73
+      ],
+      "fr": [
+        67,
+        74
+      ],
+      "it": [
+        64,
+        71
+      ]
+    }
+  },
+  {
+    "folder": "41-automatic-replies-out-of-office-in-outlook",
+    "titles": {
+      "en": "Automatic replies (Out of Office) in Outlook",
+      "de": "Outlook Abwesenheitsmeldungen",
+      "fr": "Message d'absence dans Outlook",
+      "it": "Avviso di assenza in Outlook"
+    },
+    "pages": {
+      "en": [
+        70,
+        73
+      ],
+      "de": [
+        73,
+        76
+      ],
+      "fr": [
+        74,
+        78
+      ],
+      "it": [
+        71,
+        75
+      ]
+    }
+  },
+  {
+    "folder": "42-font-correspondence",
+    "titles": {
+      "en": "Font — correspondence",
+      "de": "Schrift",
+      "fr": "Police - Typographie",
+      "it": "Impostazioni tipografiche nella corrispondenza"
+    },
+    "pages": {
+      "en": [
+        73,
+        74
+      ],
+      "de": [
+        76,
+        77
+      ],
+      "fr": [
+        78,
+        78
+      ],
+      "it": [
+        75,
+        75
+      ]
+    }
+  },
+  {
+    "folder": "43-helsana-dictionary",
+    "titles": {
+      "en": "Helsana dictionary",
+      "de": "Helsana Wörterbuch",
+      "fr": "Dictionnaire Helsana",
+      "it": "Dizionario Helsana"
+    },
+    "pages": {
+      "en": [
+        74,
+        75
+      ],
+      "de": [
+        77,
+        78
+      ],
+      "fr": [
+        78,
+        79
+      ],
+      "it": [
+        75,
+        76
+      ]
+    }
+  },
+  {
+    "folder": "44-multilingualism",
+    "titles": {
+      "en": "Multilingualism",
+      "de": "Mehrsprachigkeit",
+      "fr": "Plurilinguisme",
+      "it": "Plurilinguismo"
+    },
+    "pages": {
+      "en": [
+        75,
+        75
+      ],
+      "de": [
+        78,
+        78
+      ],
+      "fr": [
+        79,
+        80
+      ],
+      "it": [
+        76,
+        77
+      ]
+    }
+  },
+  {
+    "folder": "45-translate-or-adapt",
+    "titles": {
+      "en": "Translate or adapt?",
+      "de": "Übersetzen oder adaptieren?",
+      "fr": "Traduire où transposer ?",
+      "it": "Tradurre o adattare?"
+    },
+    "pages": {
+      "en": [
+        75,
+        77
+      ],
+      "de": [
+        78,
+        80
+      ],
+      "fr": [
+        80,
+        81
+      ],
+      "it": [
+        77,
+        78
+      ]
+    }
+  },
+  {
+    "folder": "46-product-names",
+    "titles": {
+      "en": "Product names",
+      "de": "Produktnamen",
+      "fr": "Les noms de produits",
+      "it": "Nomi di prodotti"
+    },
+    "pages": {
+      "en": [
+        77,
+        77
+      ],
+      "de": [
+        80,
+        80
+      ],
+      "fr": [
+        81,
+        82
+      ],
+      "it": [
+        78,
+        79
+      ]
+    }
+  }
+]
